@@ -41,7 +41,7 @@ The program searches the array of struct elements using loops (for or strcmp).
 4. If the data is found, it prints element details.
 5. If no match exists, the system shows “Element Not Found”.
 6. The program returns to the menu again until the user exits.
-   ************************* Output of the program ***************************************
+   ************************* Thank You*************************************
     
 
 
