@@ -1,8 +1,14 @@
 # Periodic-Table-Explorer-C
 A; C- based console applications that displays the modern periodic table and allows users to search for elements by atomic number or symbol, providing a quick and interactive way to explore chemical elements and their categories.
+
+
 Unique - My project covers all 118 elements and I have used struct keyword to store real -life chemical database.
+
+
 // Extra Features added -a) Complete database of all 118 elements, not just first 20 0r 30.
                          b) We can search the element by atomic number and element symbol.
+
+                         
 // Programming Techniques Used - a) Use of struct (is used to store atomic number , symbol,name ,catogory )and typedef is used so we can create a new simple name(Element) instead of writing struct repeatedly.
                                  b) Array of structure (All 118 elements are stored as an array containing multiple structure values)
                                  c) Menu- Driven programming (The programm repeatedly shows a choices and executes based on user selection)-- It makes the program interactive , letting users choose different 
@@ -11,8 +17,15 @@ Unique - My project covers all 118 elements and I have used struct keyword to st
                                  e) String Handling Technique ( Used for comparision symbol and taking symbol from input)
                                  f) Uses of controlled statement (for, do- while , if -else , Switch case)
                                  g) Use of global variable (elementcount is declared globally , so all functions can access it without passing as a parameter)
+
+
+                                 
  // I used C programming language because it allows efficient memory usage , fast processing , and supports structure. This helps in storing complete data of 118 elements and enables quick searching like a real chemical databases.
+
+ 
  // I used printf() , scanf() as a library functions and searchByNumber();SearchBysymbol();displayAllElements(); as a user-defined functions.
+
+ 
  ** Explanation of of project features**
  1. Full Display of Modern Periodic Table
     // The system print all 118 elements in a formatted manner showing :
@@ -28,6 +41,8 @@ Unique - My project covers all 118 elements and I have used struct keyword to st
        . Element name
        . Atomic Number
        . Category
+
+   
    ** How the system /Model Works
    1. Program Starts and displays a user menu.
    2. The user chooses an operation:
